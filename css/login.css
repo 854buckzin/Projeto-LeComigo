@@ -1,0 +1,26 @@
+#header {
+    background-color: rgb(36, 94, 241);
+    color: white;
+    padding: 9px;
+    text-align: center;
+}
+
+#menu {
+    float: left;
+    width: 20%;
+    height: 390px;
+    background-color: rgb(160, 161, 162);
+}
+
+#main {
+    margin-left: 20%;
+    height: 350px;
+    padding: 20px;
+}
+
+#footer {
+    background-color: rgb(36, 94, 241);
+    color: white;
+    padding: 1px;
+    text-align: center;
+}   
