@@ -8,13 +8,12 @@
 #menu {
     float: left;
     width: 13%;
-    height: 390px;
+    height: 30rem;
     background-color: rgb(69, 221, 255);
 }
 
 #main {
     margin-left: 13%;
-    height: 350px;
     padding: 20px;
 }
 
@@ -39,4 +38,22 @@ button:hover {
     border: none;
     width: 100%;
     height: 50px;
+}
+
+.MenuButton {
+    background-color: rgb(82, 126, 236);
+    color: white;
+    border: none;
+    width: 100%;
+    height: 20%;
+    font-size: 120%;
+    text-align: left;
+}
+
+.MenuButton:hover {
+    background-color: rgb(87, 168, 255);
+    color: white;
+    border: none;
+    width: 100%;
+    height: 20%;
 }
