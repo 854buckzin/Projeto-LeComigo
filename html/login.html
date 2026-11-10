@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login - Lê Comigo</title>
     <link rel="stylesheet" href="../css/login.css">
 </head>
+
 <body>
     <div id="header">
         <h1><strong>Lê Comigo</strong></h1>
@@ -20,7 +22,33 @@
     </div>
 
     <div id="main">
+        <h2>Bem-vindo!</h2>
+        <p>
+            Entre na sua conta para continuar aprendendo.
+        </p>
 
+        <form action="#" method="post">
+
+            <label for="email">E-mail:</label>
+            <br>
+            <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+
+            <br>
+            <br>
+
+            <label for="senha">Senha:</label>
+            <br>
+            <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required>
+
+            <br><br>
+
+            <button type="submit">Entrar</button>
+
+        </form>
+
+        <p>
+            Não tem uma conta ? <a style="color: #275085;" href="cadastro.html">Crie uma aqui !</a>
+        </p>
     </div>
 
     <div id="footer">
@@ -29,4 +57,5 @@
         <p>© 2026 Lê Comigo</p>
     </div>
 </body>
+
 </html>

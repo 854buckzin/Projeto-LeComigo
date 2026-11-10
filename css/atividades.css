@@ -73,6 +73,10 @@ body {
     background-color: #d8e2ec;
 }
 
+#main img {
+    border-radius: 8px;
+}
+
 .habilidade {
     display: inline-block;
     width: 40%;

@@ -64,6 +64,25 @@ body {
     line-height: 1.6;
 }
 
+#main img {
+    border-radius: 8px;
+}
+
+.botao {
+    display: inline-block;
+    background-color: #275085;
+    color: white;
+    text-decoration: none;
+    padding: 10px 25px;
+    margin-top: 15px;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+.botao:hover {
+    background-color: #1e3d65;
+}
+
 #footer {
     width: 100%;
     background-color: #275085;
